@@ -14,6 +14,7 @@ from django.views.decorators.csrf import csrf_exempt
 import datetime
 import json
 
+
 #menghubungkan template dan model, misah tampilan data
 # Create your views here.
 @login_required(login_url='/login')
